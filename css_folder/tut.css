@@ -14,7 +14,7 @@ body
     flex-direction: row;
 }
 #main11
-{   background-image: url("dack.jpg");
+{   background-image: url("../assets/dack.jpg");
     position: relative;
     height : 100% ;
     /* top: 20%;
@@ -58,7 +58,7 @@ body
 
 @font-face {
     font-family: Algerian;
-    src: url(Algerian\ Regular.ttf);
+    src: url(../fonts/Algerian\ Regular.ttf);
   }
 
 #dagger

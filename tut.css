@@ -1,0 +1,192 @@
+html
+{
+    height : 100%;
+}
+
+body
+{   height : 100%;
+    background-color: black;
+}
+
+#main1
+{   height : 100%;
+    display: flex;
+    flex-direction: row;
+}
+#main11
+{   background-image: url("dack.jpg");
+    position: relative;
+    height : 100% ;
+    /* top: 20%;
+    left: 3%; */
+}
+
+#main2
+{
+    /* margin-left: 50%; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+#pic
+{   position: relative;
+    margin-top: 0%;
+    width: 45vw;  
+    height: 100%;  
+    text-align: center;  
+    border-style:ridge;  
+    border: 5px solid blue;
+    transform: scale(-1,-1);  
+}
+
+
+#idd
+{   
+    background-color: black;
+    color: white;
+    position: fixed;
+    margin-top :0.0vw;
+    /* border: 8px solid rgb(255, 0, 0); */
+    border-style:ridge;
+    font-family : Algerian;
+    /* transform: rotate(1deg); */
+    animation: animateHeart 1.2s infinite;
+    font-size: 5.0vw; 
+    -webkit-text-stroke: 0.08vw green;
+}
+
+@font-face {
+    font-family: Algerian;
+    src: url(Algerian\ Regular.ttf);
+  }
+
+#dagger
+{   
+    position: relative;
+    margin-top: 12vw;
+    margin-left: 2vw;
+    animation-name: rotate;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+    
+    /* top: 100.0px;
+
+    left: 1010.0px; */
+    border-radius: 50%;
+} 
+
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
+
+
+#portfolio
+{
+    position: relative;
+    margin-top: 6vw;
+    margin-left: 30vw;
+    margin-right: 03vw;
+
+}
+#contact
+{
+    position: relative;
+    margin-top: 10vw;
+    margin-left: 3vw;
+    margin-right: 30vw;
+}
+
+.button
+{
+    font-size: 18px;
+    padding: 15px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    display: block;
+    margin: 50px auto;
+    background: transparent;
+    transition: .2s ease-in-out 0s;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+    background: #FFF;
+    color: #000;
+    }
+
+@keyframes animateHeart {
+  
+  0% {
+    transform: rotate(0deg) scale(0.8);
+  }
+  5% {
+    transform: rotate(0deg) scale(0.9);
+  }
+  10% {
+    transform: rotate(0deg) scale(0.8);
+  }
+  15% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(0deg) scale(0.8);
+  }
+  100% {
+    transform: rotate(0deg) scale(0.8);
+  }
+}
+
+
+#id2
+{   position: relative;
+    margin-top: 40%;
+    width: 40%;
+    margin-left: 2%;
+    background-color: white;
+    color: black;
+    font-family: cursive;
+}
+
+.list
+{   margin-left: 4%;
+    width: 50%;
+    /* margin-top: 10%; */
+    font-size: large;
+    color: white;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1%;
+}
+.list2
+{   margin-left: 4%;
+    width: 75%;
+    /* margin-top: 10%; */
+    font-size: large;
+    color: white;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1%;
+}
+
+/* 
+#idd
+{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top :0;
+    border: 4px solid rgb(255, 0, 0);
+    border-style: double;
+    width: max-content;
+    font-size: 80.0px; 
+} */
+
+/* #id1{
+    display: flex;
+    flex-direction: column;
+
+}  */

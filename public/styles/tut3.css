@@ -3,10 +3,15 @@ html
     height: 100%;
 }
 img{
-    position: relative
-    ;
+    position: relative;
     margin-top: 2.5%;
     border-radius: 40%;
+}
+#imag
+{   padding-right: 2%;
+    height: 50%;
+    width: 100%;
+    margin-left: 2%;
 }
 #imgg{
     display: flex;
@@ -20,25 +25,27 @@ body
 #imagee
 {
     position: relative;
-    
-    margin-left: 4vw;
+    height:inherit;
+    width: inherit;
+    margin-left: 0vw;
 }
 #dagger
 {   
     position: relative;
-    margin-top: 6vw;
-    margin-left: 6%;
+    margin-top: 11vw;
+    height: inherit;
+    width: inherit;
     animation-name: rotate;
     animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function:ease-in-out;
-    
-    /* top: 100.0px;
-
-    left: 1010.0px; */
     border-radius: 50%;
 } 
-
+#dagdiv
+{   margin-top: 0;
+    height: 3rem;
+    width: 3 rem;
+}
 @keyframes rotate{
     from{ transform: rotate(-360deg); }
     to{ transform: rotate(360deg); }
@@ -96,7 +103,6 @@ h3
     font-size: 3vw;
     color: white;
     text-decoration: underline;
-    /* font-size: 15vw; */
 }
 .l1
 {   position: relative;
@@ -104,5 +110,50 @@ h3
     font-size: 1.5vw;
     color: white;
     text-decoration: underline;
-    /* font-size: 10vw; */
+
+}
+
+#contact
+{
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+}
+
+
+@media only screen and (max-width: 768px) 
+{
+    #imgg {
+        flex-direction: column;
+    }
+    #imagee
+    {
+        margin-left: 00%;
+        margin-top: 40%;    
+    }
+    #contact{
+        margin-top: 50%;
+    }
+
+    #edu{
+        margin-top: 50%;
+    }
+    .r{
+        font-size: 4vw;
+    }
+    .l2{
+        font-size: 3vw;
+    }
+
+    #name{
+        font-size: 6vw;
+    }
+    h3{font-size: 3.5vw;}
+
+    .left{
+        font-size: 4.8vw;
+    }
+    .l1
+    {   margin-left: 0%;
+        font-size: 3vw;
+    }
 }
